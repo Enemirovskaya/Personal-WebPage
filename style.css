@@ -1,0 +1,182 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+   
+body, html{
+    font-size:10px;
+    font-family: 'Freehand', cursive;
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero{
+    background-image: url(./imgs/architecture-2178736.jpg);
+    background-size: cover;
+    background-position: top right;
+    position: relative;
+}
+
+#hero h1{
+    display:block;
+    width: fir-content;
+    font-size: 3rem;
+    position: relative;
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: rgb(30, 93, 84);
+}
+#hero .aboutMe{
+    display: inline-block;
+    padding: 10px 30px;
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: rgb(30, 93, 84);
+    background-color: transparent;
+    border:2px solid white;
+    font-size: 2rem;
+    margin-top: 30px;
+    letter-spacing: .2rem;
+}
+
+#hero .aboutMe:hover{
+   color: white;
+   background-color: rgb(30, 93, 84);
+}
+#hero .courses{
+    display: inline-block;
+    padding: 10px 30px;
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: rgb(30, 93, 84);
+    background-color: transparent;
+    border:2px solid white;
+    font-size: 2rem;
+    margin-top: 30px;
+    letter-spacing: .2rem;
+}
+
+#hero .courses:hover{
+   color: white;
+   background-color: rgb(30, 93, 84);
+}
+/* Text Box Section */
+.text-container {
+    width: 100%; /* Set the width of the container as needed */
+    height: 300px; /* Set the height of the container as needed */
+    background-image: url(./imgs/keyboard-2303853_1920.jpg); 
+    background-size: cover;
+    background-position: center center; /* Center the background image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: flex-start;
+    color:black; /* Set the text color */
+    text-align: center;
+    margin:30px 5%;
+    padding: 50px;
+   border-radius: 10px;
+   align-items: fles-start;
+   font-size: 1.5rem;
+}
+/* .container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+/* ______COURSE.HTML ____________ */
+
+.page-background{
+    padding: 20px;
+    background-color: paleturquoise;
+    justify-content: center;
+}
+#header-box{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+#home-button-container {
+    text-align: center;
+}
+#home-button{
+    display: inline-block;
+    padding: 10px 30px;
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: rgb(30, 93, 84);
+    background-color: transparent;
+    border:2px solid rgb(26, 14, 14);
+    font-size: 2rem;
+    margin-top: 30px;
+    letter-spacing: .2rem;
+    border-radius: 10px;
+    /* justify-content: center; */
+}
+#home-button:hover {
+    color: rgb(17, 13, 13);
+    background-color: rgb(34, 187, 164);
+}
+.page{
+    display: flex;
+    margin-top: 20px; 
+    justify-content: center; 
+}
+#p{
+    margin-top: 10px; 
+    font-size: 1.5rem; 
+    padding-bottom: 30px;
+    
+}
+table{
+    font-size: 1.5rem;
+}
+table, th, td{
+    border: 1px solid rgb(13, 57, 83);
+    
+}
+.CIS{
+    text-align:center;
+}
+.text{
+  padding: 10px;  
+}
+.course-num{
+    padding: 10px;
+}
+
+
+
+
+
+
